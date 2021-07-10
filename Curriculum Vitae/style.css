@@ -64,3 +64,15 @@ h2 mark
     background-color: #026a9e;
     border-color: #026a9e;
 }
+
+.social
+{
+    color: red;
+    font-size: 20px;
+}
+
+.social:hover
+{
+    color: blue;
+    font-size: 80px;
+}
