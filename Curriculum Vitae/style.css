@@ -88,6 +88,30 @@ h2 mark
     border-color: red;
 }
 
+.btn-Twitter-small a
+{   
+    background-color: blue;
+    border-color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+@media (min-width: 992px) 
+{
+    .btn-Twitter-small a
+    {   
+        color : pink;
+    }
+}
+
+@media (max-width: 991px) 
+{
+    .btn-Twitter-small a
+    {   
+        color : green;
+    }
+}
+
 .bi-twitter:hover
 {
     color: white;
